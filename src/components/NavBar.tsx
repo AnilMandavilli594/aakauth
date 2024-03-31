@@ -7,7 +7,7 @@ const Navbar = () => {
       <h1>AAK Science</h1>
       <div className="nav-links">
         <Link to="/">Home</Link>
-        <Link to="/auth" className="login-button">Login</Link>
+        <Link to="/auth" className="login-button">Sign up</Link>
       </div>
     </nav>
   );
