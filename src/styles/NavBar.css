@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar h1 {
+    margin: 7px;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
